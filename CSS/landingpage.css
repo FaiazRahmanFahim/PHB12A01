@@ -6,7 +6,6 @@
   font-style: normal;
 }
 
-
 /* Header styles */
 .nav-list {
     display: flex;
@@ -22,6 +21,7 @@
     font-family: 'inter', sans-serif;
     font-weight: 900;
 }
+/* ---------------------------------------- */
 
 /* Button styles */
 .btn-style{
@@ -33,10 +33,13 @@
     padding: 12px 36px;
     border-radius: 10px;
 }
+/* --------------------------------------- */
 
 .header-bg{
     background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+    padding-bottom: 152px;  
 }
+/* ------------------------------------ */
 
 /* banner style */
 .banner {
@@ -46,10 +49,38 @@
     margin: 0 auto;
 
 }
-
-.banner-description{
+.banner-headline{
     font-size: 65px;
     font-weight: bold;
 }
+/* ---------------------------- */
 
+/* Section Style */
+
+.section-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.first-section{
+    display: flex;
+    padding: 116px 141px 159px;
+    justify-content: space-between;
+}
+.first-section-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
+.first-section-description{
+    color: #252432;
+    font-size: 24px;
+    font-weight: 100; 
+    width: 517px;
+    height: 60px; 
+}
+
+
+/* ------------------------------------ */
 
