@@ -1,4 +1,6 @@
-
+.bg{
+    background-color: #F5F8FF;
+}
 .raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -37,7 +39,8 @@
 
 .header-bg{
     background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
-    padding-bottom: 152px;  
+    padding-bottom: 152px; 
+    background-color: #F8F9FF; 
 }
 /* ------------------------------------ */
 
@@ -120,4 +123,71 @@
 }
 /* -------------------------------- */
 
+/* third-section */
+.third-section{
+    width: 1140px;
+    height: 342px;
+    border-radius: 24px;
+    margin: 0 auto 116px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.review-card{
+    background-color: #FFFFFF;
+    width: 366px;
+    height: 243px;
+    border-radius: 14px;
+    border: 1px solid #F2EDED;
+}
+
+.card-con{
+   padding: 24px;
+}
+
+.stars {
+  width: 110px;
+  height: 22px;
+  background-image: url('/B12A01-landing-launchpad/Assets/icon-star.png');
+  background-repeat: repeat-x;
+}
+
+.review-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 5px;
+}
+
+.review-text {
+  font-size: 14px;
+  color: #1E1E1E;
+  margin-bottom: 16px;
+}
+
+.reviewer-img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.reviewer-name {
+  font-weight: 600;
+  color: #757575;
+  font-size: 16px;
+  margin: 0;
+  
+}
+
+.review-date {
+  font-size: 16px;
+  color: #B3B3B3;
+  margin: 0;
+}
 
