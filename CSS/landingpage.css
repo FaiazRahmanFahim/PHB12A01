@@ -191,3 +191,48 @@
   margin: 0;
 }
 
+/* -------------------- */
+
+/* four-section */
+
+.four-section{
+    display: flex;
+    width: 1140px;
+    height: 632px;
+    margin: 0 auto 116px;
+    justify-content: space-between;
+
+}
+.fs-left-header{
+    font-size: 97px;
+    font-weight: bold;
+    width: 528px;
+    height: 232px;
+}
+
+.placeholder-style{
+    margin-left: 10px;
+}
+
+.input-sty{
+    font-size: 18px;
+}
+
+.input-sty{
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #F2EDED;
+
+}
+.textarea-sty{
+    width: 497px;
+    height: 135px;
+    border-radius: 10px;
+    border: 1px solid #F2EDED;
+}
+
+.btn-fs-main{
+    margin-top: 10px;
+    width: 78%;
+}
