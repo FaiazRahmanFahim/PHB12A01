@@ -33,3 +33,23 @@
     padding: 12px 36px;
     border-radius: 10px;
 }
+
+.header-bg{
+    background-image: url('../B12A01-landing-launchpad/Assets/Hero-bg.png');
+}
+
+/* banner style */
+.banner {
+    text-align: center;
+}
+.banner-title{
+    margin: 0 auto;
+
+}
+
+.banner-description{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+
