@@ -17,6 +17,7 @@
     padding: 50px 150px;
 
 }
+
 .logo{
     color: #4E47FF;
     font-size: 34px;
@@ -34,7 +35,15 @@
     font-weight: bold;
     padding: 12px 36px;
     border-radius: 10px;
+    cursor: pointer;
 }
+
+.btn-style:hover {
+    transform: scale(1.02);        
+    box-shadow: 0 8px 20px darkred;
+    background-color: darkred;      
+}
+
 /* --------------------------------------- */
 
 .header-bg{
@@ -42,6 +51,7 @@
     padding-bottom: 152px; 
     background-color: #F8F9FF; 
 }
+
 /* ------------------------------------ */
 
 /* banner style */
@@ -59,18 +69,21 @@
 /* ---------------------------- */
 
 /* Section Style */
-
 .section-title{
     font-size: 42px;
     font-weight: bold;
     margin-bottom: 23px;
 }
 
-.first-section{
+.first-section {
     display: flex;
-    margin: 116px 150px;
+    max-width: 1140px;
+    margin: 116px auto;
     justify-content: space-between;
+    align-items: center;
+    gap: 40px;
 }
+
 .first-section-img{
     width: 403px;
     height: 328px;
@@ -90,7 +103,6 @@
 }
 
 /* second-section-details */
-
 .second-section{
     background-color: #E5E7FF;
     width: 1140px;
@@ -143,68 +155,67 @@
 }
 
 .card-con{
-   padding: 24px;
+    padding: 24px;
 }
 
 .stars {
-  width: 110px;
-  height: 22px;
-  background-image: url('../B12A01-landing-launchpad/Assets/icon-star.png');
-  background-repeat: repeat-x;
+    width: 110px;
+    height: 22px;
+    background-image: url('../B12A01-landing-launchpad/Assets/icon-star.png');
+    background-repeat: repeat-x;
 }
 
 .review-title {
-  font-size: 24px;
-  font-weight: 700;
-  margin: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 5px;
 }
 
 .review-text {
-  font-size: 14px;
-  color: #1E1E1E;
-  margin-bottom: 16px;
+    font-size: 14px;
+    color: #1E1E1E;
+    margin-bottom: 16px;
 }
 
 .reviewer-img {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
 }
 
 .reviewer-info {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .reviewer-name {
-  font-weight: 600;
-  color: #757575;
-  font-size: 16px;
-  margin: 0;
+    font-weight: 600;
+    color: #757575;
+    font-size: 16px;
+    margin: 0;
   
 }
 
 .review-date {
-  font-size: 16px;
-  color: #B3B3B3;
-  margin: 0;
+    font-size: 16px;
+    color: #B3B3B3;
+    margin: 0;
 }
-
 /* -------------------- */
 
 /* four-section */
 .four-section {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
     width: 1140px;
-    height: 632px;
     margin: 0 auto 116px;
-    align-items: center;
 }
 
-.fs-left {
+.fs-left{
     width: 50%;
+    
 }
 
 .fs-left-header {
@@ -213,10 +224,19 @@
 }
 
 .fs-right {
-    width: 50%;
+   width: 50%; 
+}
+
+.fs-right form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
+}
+
+.fs-main-title {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
 }
 
 .input-sty, .textarea-sty {
@@ -227,14 +247,51 @@
 }
 
 .input-sty {
-  height: 70px;
+    height: 70px;
 }
 
 .textarea-sty {
-  height: 135px;
-  resize: none;
+    height: 135px;
+    resize: none;
 }
 /* -------------------------- */
 
+/* footer */
 
+.footer {
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 104px 455px;
+}
 
+.footer-logo {
+    color: #4E47FF;
+    font-family: 'inter', sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.footer-description {
+    color: #8987A1;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.footer-nav a {
+    color: #8987A1;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-nav a:hover {
+    color:brown;
+}
+/* ------------------------ */

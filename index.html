@@ -106,17 +106,32 @@
                 <h3 class="fs-left-header">Let’s Get in Touch</h3>
             </div>
             <div class="fs-right">
-                <h3 class="fs-main-title">Email</h3>
-                <input class="input-sty" type="email" placeholder="    example@email.com">
-                <h3 class="fs-main-title">Name</h3>
-                <input class="input-sty" type="text" placeholder="    full name">
-                <h3 class="fs-main-title">Message</h3>
-                <textarea class="textarea-sty" placeholder="   write your message...."></textarea>
-                <button class="btn-style">Get in Touch</button>
+                <form action="">
+                    <h3 class="fs-main-title">Email</h3>
+                    <input class="input-sty" type="email" name="email" placeholder="example@email.com" required>
+                    <h3 class="fs-main-title">Name</h3>
+                    <input class="input-sty" type="text" name="name" placeholder="Full name" required>
+                    <h3 class="fs-main-title">Message</h3>
+                    <textarea class="textarea-sty" name="message" placeholder="Write your message..." required></textarea>
+                    <button class="btn-style" type="submit">Get in Touch</button>
+                </form>
             </div>
+
         </section>
     </main>
-    <footer>
+    <footer class="footer">
+        <div class="footer-content">
+            <h2 class="footer-logo">LOGO</h2>
+            <p class="footer-description">
+                Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.
+            </p>
+            <nav class="footer-nav">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#how it works">How it Works</a>
+                <a href="#service">Services</a>
+            </nav>
+        </div>  
     </footer>
 </body>
 </html>
